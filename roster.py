@@ -3,5 +3,6 @@
 import pandas as pd
 
 roster = ["Bacot", "Davis", "Cadeau"]
+player = {"Last Name": roster}
 data = pd.DataFrame(roster)
 print(data)
